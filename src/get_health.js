@@ -8,5 +8,4 @@ export default function getHealth(character) {
   if (character.health < 15) {
     return 'critical';
   }
-  return '';
 }
