@@ -1,3 +1,4 @@
+// eslint-disable-next-line consistent-return
 export default function getHealth(character) {
   if (character.health > 50) {
     return 'healthy';
